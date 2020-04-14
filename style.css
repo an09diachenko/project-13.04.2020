@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    min-height: 740px;
+    line-height: 1.5em;
+}
+.header {
+    background-color: #fcdb00;
+    display: flex;
+}
+.header .container {
+    display: flex;
+    margin-top: 77px;
+    margin-bottom: 124px; 
+}
+.vectors {
+    display: flex;
+    position: absolute;
+    top: 90px;
+    right: 150px;
+}
+.vectors img {
+    margin: 0px 8px 0px;
+}
+.slogan {
+    text-align: center;
+    width: 754px;
+}
+h1 {
+    font-size: 48px;
+    margin-bottom: 6px;
+    font-weight: bolder;
+    height: 64px;
+}
+.v1, .v2, .v3  {
+    width: 68px;
+    height: 68px;
+    border: 2px solid #010101;
+    border-radius: 100%;
+    margin: 9px;
+    padding: 19px;
+}
+.vectors2 {
+    display: flex;
+    margin-top: 22px;
+}
+
+
+
+/*
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+.content .text {
+    display: flex;   
+}
+.text h2 {
+    width: 270px;
+    height: 44px;
+    font-size: 24px;
+}
+.text p {
+    color: #8b8a8b;
+    width: 270px;
+    height: 85px;
+    font-size: 18px;
+    line-height: 1.5em; 
+}
+*/
+
+
+
+
+.footer {
+    background-color: #010101;
+    display: flex;
+}
+.footer .info, .content .info {
+    text-align: center;
+    width: 754px;  
+}
+.footer h2, .content .info h2 {
+    height: 38px;
+    font-size: 36px;
+    margin-top: 77px;
+}
+.footer h2 {
+    color: #fcdb00;
+}
+.footer p, .content .info p {
+    margin-top: 7px;
+    margin-bottom: 38px;
+}
+.footer p {
+     color: #8b8a8b;
+}
+.email {
+    width: 560px;
+    height: 50px;
+    color: #8b8a8b;
+    padding: 16px 17px 17px 19px;
+    border: none;
+    border-radius: 3px;
+}
+.submit {
+    width: 174px;
+    height: 50px;
+    background-color: #fcdb00;
+    color: #010101;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    padding: 14px 21px 13px 18px;  
+}
+.footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 103px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.5em;
+}
+li:first-child {
+    width: 367px;
+    height: 155px;
+}
+li {
+    width: 77px;
+    height: 155px;
+    margin-left: 116px; 
+}
+
+
